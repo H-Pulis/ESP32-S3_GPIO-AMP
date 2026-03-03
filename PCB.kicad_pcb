@@ -684,7 +684,7 @@
 			(uuid "9d2ee54a-c1ac-4d34-b5a1-b848b2700a74")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 10.16 360)
+			(at 0 10.16 0)
 			(layer "F.Fab")
 			(uuid "af3fe0f4-b806-40f7-a0c6-7d6c11ab64c1")
 			(effects
@@ -2345,6 +2345,19 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f63b574e-e17e-4e07-8d39-c54889aaae4f")
+	)
+	(gr_text "github.com/H-Pulis/ESP32-S3_GPIO-AMP"
+		(at 176.5 124.25 0)
+		(layer "B.SilkS")
+		(uuid "78abd87b-ea18-4050-bf59-6cc7438fe204")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "MCU1"
 		(at 149 98.9 0)
